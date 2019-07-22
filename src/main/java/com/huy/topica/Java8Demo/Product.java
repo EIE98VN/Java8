@@ -1,7 +1,6 @@
 package com.huy.topica.Java8Demo;
 
 import java.util.Calendar;
-import java.util.Date;
 
 public class Product {
     private String id;
