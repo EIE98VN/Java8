@@ -10,8 +10,8 @@ public class LocalDateDemo {
         LocalDate today = LocalDate.now();
         System.out.println("Current Date = " + today);
  
-        LocalDate firstDay_2014 = LocalDate.of(2014, Month.JANUARY, 1);
-        System.out.println("Specific Date = " + firstDay_2014);
+        LocalDate specificDate = LocalDate.of(2019, Month.MAY, 29);
+        System.out.println("Specific Date = " + specificDate);
 
         LocalDate todayHCM = LocalDate.now(ZoneId.of("Asia/Ho_Chi_Minh"));
         System.out.println("Current Date in IST = " + todayHCM);

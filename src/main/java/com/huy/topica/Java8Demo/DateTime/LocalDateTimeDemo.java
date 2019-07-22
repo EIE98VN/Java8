@@ -16,7 +16,7 @@ public class LocalDateTimeDemo {
         today = LocalDateTime.of(LocalDate.now(), LocalTime.now());
         System.out.println("Current DateTime = " + today);
 
-        LocalDateTime specificDate = LocalDateTime.of(2014, Month.JANUARY, 1, 10, 10, 30);
+        LocalDateTime specificDate = LocalDateTime.of(2011, Month.MARCH, 12, 18, 2, 58);
         System.out.println("Specific Date = " + specificDate);
 
         LocalDateTime todayHCM = LocalDateTime.now(ZoneId.of("Asia/Ho_Chi_Minh"));
