@@ -19,7 +19,7 @@ public class LocalDateDemo {
         LocalDate dateFromBase = LocalDate.ofEpochDay(295);
         System.out.println("365th day from base date 1/1/1970: " + dateFromBase);
  
-        LocalDate hundredDay2014 = LocalDate.ofYearDay(2019, 31);
-        System.out.println("31 day of 2019 : " + hundredDay2014);
+        LocalDate hundredDay2019 = LocalDate.ofYearDay(2019, 31);
+        System.out.println("31 day of 2019 : " + hundredDay2019);
     }
 }
