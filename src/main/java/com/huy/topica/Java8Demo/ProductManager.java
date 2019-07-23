@@ -43,7 +43,7 @@ public class ProductManager {
                 .orElse(null);
     }
     
-    public static int couProductParallel(List<Product> products, Calendar date) {
+    public static int countProductParallel(List<Product> products, Calendar date) {
         return (int)products
                 .parallelStream()
                 .filter(product -> product.getEXP().before(date))
